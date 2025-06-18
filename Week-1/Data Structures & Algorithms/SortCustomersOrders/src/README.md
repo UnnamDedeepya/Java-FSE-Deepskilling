@@ -65,16 +65,24 @@ Total Price: 500
 
 Sorted Orders by Bubble Sort:
 [OrderID: 121, Customer: Dedeepya, Total: ₹120.0]
+
 [OrderID: 4, Customer: Kathyayini, Total: ₹160.0]
+
 [OrderID: 122, Customer: Yamini, Total: ₹200.0]
+
 [OrderID: 123, Customer: Akshaya, Total: ₹210.0]
+
 [OrderID: 5, Customer: Bhuvana, Total: ₹500.0]
 
 Sorted Orders by Quick Sort:
 [OrderID: 121, Customer: Dedeepya, Total: ₹120.0]
+
 [OrderID: 4, Customer: Kathyayini, Total: ₹160.0]
+
 [OrderID: 122, Customer: Yamini, Total: ₹200.0]
+
 [OrderID: 123, Customer: Akshaya, Total: ₹210.0]
+
 [OrderID: 5, Customer: Bhuvana, Total: ₹500.0]
 
 Process finished with exit code 0
