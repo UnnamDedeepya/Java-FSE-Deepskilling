@@ -17,9 +17,12 @@ Binary Search → O(log n) → divides search space in half each time
 🔸 Requires a sorted array to work
 
 # 📊 4. Analysis
-Search Type	Time Complexity	Requirement	Suitability
-Linear Search	O(n)	No sorting needed	Best for small datasets
-Binary Search	O(log n)	Requires sorting	Best for large datasets
+
+| Search Type   | Time Complexity | Requirement       | Suitability             |
+| ------------- | --------------- | ----------------- | ----------------------- |
+| Linear Search | O(n)            | No sorting needed | Best for small datasets |
+| Binary Search | O(log n)        | Requires sorting  | Best for large datasets |
+
 
 🔍 Which to use?
 For smaller or unsorted product arrays → use Linear Search
