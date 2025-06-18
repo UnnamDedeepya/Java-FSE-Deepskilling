@@ -1,4 +1,5 @@
 #1.Understand the Problem
+
 Q: Why are data structures and algorithms essential for handling large inventories?
 
 Efficient storage: A proper data structure like HashMap or ArrayList allows quick access, updates, and deletion of inventory items.
@@ -17,6 +18,7 @@ TreeMap: Maintains sorted order based on keys.
 
 
 #📈 3. Analysis
+
 Time Complexity (HashMap-based):
 
 addProduct – O(1)
