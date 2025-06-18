@@ -26,6 +26,7 @@ For smaller or unsorted product arrays → use Linear Search
 
 For large sorted product arrays → Binary Search is much faster
 
+
 # Output of the Code
 
 D:\Java\jdk-17\bin\java.exe "-javaagent:D:\IntelliJ IDEA Community Edition 2025.1.1.1\lib\idea_rt.jar=50404" -Dfile.encoding=UTF-8 -classpath "E:\Java-FSE-Deepskilling\Week-1\Data Structures & Algorithms\E-CommercePlatformSearch\out\production\E-CommercePlatformSearch" app.SearchApp
