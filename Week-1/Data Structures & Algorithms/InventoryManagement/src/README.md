@@ -1,4 +1,4 @@
-#1.Understand the Problem
+# 1.Understand the Problem
 
 Q: Why are data structures and algorithms essential for handling large inventories?
 
@@ -17,7 +17,7 @@ HashMap: Best for quick search/update/delete using productId as the key.
 TreeMap: Maintains sorted order based on keys.
 
 
-#📈 3. Analysis
+# 📈 3. Analysis
 
 Time Complexity (HashMap-based):
 
