@@ -20,7 +20,9 @@ Decide which to use based on the dataset
 
 # 📊 4. Analysis
 Sorting Algorithm 	Time Complexity	    Stable	    In-place	         Notes
+
   Bubble Sort	           O(n²)	          Yes	         Yes	      Simple but slow
+  
   Quick Sort	    O(n log n)avg case	    No	         Yes	   Fast but needs recursion
 
 🚀 Why Quick Sort is Preferred:
