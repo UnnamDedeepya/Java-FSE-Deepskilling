@@ -33,23 +33,31 @@ D:\Java\jdk-17\bin\java.exe "-javaagent:D:\IntelliJ IDEA Community Edition 2025.
 1. View Image 1
 2. View Image 2
 3. Exit
+   
 Choose option: 1
+
 Loading image: pic1.jpg
+
 Displaying image: pic1.jpg
 
 --- Image Viewer ---
 1. View Image 1
 2. View Image 2
 3. Exit
+   
 Choose option: 2
+
 Loading image: pic2.jpg
+
 Displaying image: pic2.jpg
 
 --- Image Viewer ---
 1. View Image 1
 2. View Image 2
 3. Exit
+   
 Choose option: 3
+
 Exiting viewer.
 
 Process finished with exit code 0
