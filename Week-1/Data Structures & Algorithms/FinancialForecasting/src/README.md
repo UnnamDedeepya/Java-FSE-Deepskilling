@@ -41,10 +41,14 @@ Redundant calculations if not optimized
 D:\Java\jdk-17\bin\java.exe "-javaagent:D:\IntelliJ IDEA Community Edition 2025.1.1.1\lib\idea_rt.jar=65374" -Dfile.encoding=UTF-8 -classpath "E:\Java-FSE-Deepskilling\Week-1\Data Structures & Algorithms\FinancialForecasting\out\production\FinancialForecasting" app.ForecastApp
 
 Enter starting amount (₹): 2000
+
 Enter growth rate (%): 6
+
 Enter number of periods (years): 10
 
+
 📈 Forecasted Value (Recursive): ₹3581.70
+
 ⚡ Forecasted Value (Optimized): ₹3581.70
 
 Process finished with exit code 0
