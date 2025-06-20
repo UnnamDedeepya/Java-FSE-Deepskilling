@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class InventoryApp {
     public static void main(String[] args) {
-        InventoryManager manager = new InventoryManager();
+        InventoryManager m = new InventoryManager();
         Scanner sc = new Scanner(System.in);
 
         while (true) {
@@ -35,8 +35,8 @@ public class InventoryApp {
                     int qty = sc.nextInt();
                     System.out.print("Price: ");
                     double price = sc.nextDouble();
-                    Product product = new Product(id, name, qty, price);
-                    if (manager.addProduct(product)) {
+                    Product p = new Product(id, name, qty, price);
+                    if (m.addProduct(p)) {
                         System.out.println("Product added.");
                     } else {
                         System.out.println("Product already exists.");
@@ -50,7 +50,7 @@ public class InventoryApp {
                     int newQty = sc.nextInt();
                     System.out.print("New Price: ");
                     double newPrice = sc.nextDouble();
-                    if (manager.updateProduct(updateId, newQty, newPrice)) {
+                    if (m.updateProduct(updateId, newQty, newPrice)) {
                         System.out.println("Product updated.");
                     } else {
                         System.out.println("Product not found.");
@@ -60,7 +60,7 @@ public class InventoryApp {
                 case 3:
                     System.out.print("Product ID to delete: ");
                     String deleteId = sc.nextLine();
-                    if (manager.deleteProduct(deleteId)) {
+                    if (m.deleteProduct(deleteId)) {
                         System.out.println("Product deleted.");
                     } else {
                         System.out.println("Product not found.");
@@ -68,7 +68,7 @@ public class InventoryApp {
                     break;
 
                 case 4:
-                    manager.displayInventory();
+                    m.displayInventory();
                     break;
 
                 case 5:
