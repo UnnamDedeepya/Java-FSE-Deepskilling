@@ -4,25 +4,25 @@ package model;
  * Represents a single product in the inventory.
  */
 public class Product {
-    private String prodId;
-    private String prodName;
+    private String productId;
+    private String productName;
     private int quantity;
     private double price;
 
-    public Product(String prodId, String prodName, int quantity, double price) {
-        this.prodId = prodId;
-        this.prodName = prodName;
+    public Product(String productId, String productName, int quantity, double price) {
+        this.productId = productId;
+        this.productName = productName;
         this.quantity = quantity;
         this.price = price;
     }
 
     // Getters & Setters
     public String getProductId() {
-        return prodId;
+        return productId;
     }
 
     public String getProductName() {
-        return prodName;
+        return productName;
     }
 
     public int getQuantity() {
@@ -43,6 +43,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "[ID: " + prodId + ", Name: " + prodName + ", Qty: " + quantity + ", Price: ₹" + price + "]";
+        return "[ID: " + productId + ", Name: " + productName + ", Qty: " + quantity + ", Price: ₹" + price + "]";
     }
 }
