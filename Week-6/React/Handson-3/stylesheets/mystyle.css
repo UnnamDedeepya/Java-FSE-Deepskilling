@@ -1,0 +1,27 @@
+.Name {
+  font-weight: 300;
+  color: blue;
+}
+
+.School {
+  color: crimson;
+}
+
+.Total {
+  color: darkmagenta;
+}
+
+.formatstyle {
+  text-align: center;
+  font-size: large;
+  padding: 30px;
+  background: linear-gradient(to right, #f2f2f2, #e0f7fa);
+  border-radius: 12px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  width: 50%;
+  margin: 50px auto;
+}
+
+.Score {
+  color: forestgreen;
+}
