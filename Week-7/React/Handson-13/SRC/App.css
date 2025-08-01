@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* key for equal height */
+  padding: 30px;
+}
+.panel {
+  flex: 1; /* equal width */
+  min-width: 250px;
+  box-sizing: border-box;
+  padding: 16px 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.panel:not(:last-child) {
+  border-right: 4px solid green;
+}
+
